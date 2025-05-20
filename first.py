@@ -1,13 +1,14 @@
-#write apython program that take a person,age and categoriesit as:
+# Qno:1
+a=20
+b=90
+c=100
+sum= int(a) + int(b) + int(c)
+Difference= int(a) - int(b) - int(c)
+product= int(a)*int(b)*int(c)
+averageone=  int(a) + int(b) + int(c) /3
+print("answer the sum", sum)
+print("answer the Difference", Difference)
+print("answer the product", product)
+print("answer the averageone", averageone)
 
-age = int(input("enter your age"))
-if age<13:
-    print("categories of child age")
-elif (13<19):
-    print("categories of teen age")
-elif (20-59):
-    print("categories of adult age")
-elif age >= 60:
-    print("categories of senior")
-else:
-    print("invaliad age")
+
